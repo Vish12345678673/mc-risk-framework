@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+ENV/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data (important for financial projects)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Logs
+*.log
+
+# Outputs / results
+results/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
