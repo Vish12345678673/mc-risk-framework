@@ -1,0 +1,92 @@
+
+[SP500] ^GSPC (developed) ...
+  5028 returns
+  ruin(-50%)=0.03% p95MDD=29.8%
+     model  breach_rate   cc_p
+ fhs_garch       0.0523 0.6927
+hmm_regime       0.0439 0.0002
+historical       0.0523 0.0000
+
+[DAX] ^GDAXI (developed) ...
+  5071 returns
+  ruin(-50%)=0.10% p95MDD=35.4%
+     model  breach_rate   cc_p
+ fhs_garch       0.0567 0.0852
+hmm_regime       0.0442 0.0000
+historical       0.0564 0.0000
+
+[FTSE100] ^FTSE (developed) ...
+  5049 returns
+  ruin(-50%)=0.00% p95MDD=30.8%
+     model  breach_rate   cc_p
+ fhs_garch       0.0519 0.0818
+historical       0.0517 0.0000
+  gaussian       0.0479 0.0000
+
+[Nikkei] ^N225 (developed) ...
+  4888 returns
+  ruin(-50%)=0.11% p95MDD=36.4%
+     model  breach_rate   cc_p
+ fhs_garch       0.0510 0.3828
+historical       0.0529 0.0045
+  gaussian       0.0476 0.0001
+
+[Nifty50] ^NSEI (emerging) ...
+  4595 returns
+  ruin(-50%)=0.12% p95MDD=34.9%
+     model  breach_rate   cc_p
+ fhs_garch       0.0552 0.1937
+historical       0.0469 0.0128
+ student_t       0.0510 0.0049
+
+[Sensex] ^BSESN (emerging) ...
+  4911 returns
+  ruin(-50%)=0.12% p95MDD=33.9%
+     model  breach_rate   cc_p
+ fhs_garch       0.0540 0.4650
+historical       0.0476 0.0017
+ student_t       0.0521 0.0001
+
+[Bovespa] ^BVSP (emerging) ...
+  4948 returns
+  ruin(-50%)=0.51% p95MDD=40.3%
+     model  breach_rate   cc_p
+ fhs_garch       0.0510 0.9438
+historical       0.0515 0.0015
+ student_t       0.0508 0.0004
+
+[JSE40] ^J200.JO (emerging) ...
+  4979 returns
+  ruin(-50%)=0.01% p95MDD=31.5%
+     model  breach_rate   cc_p
+historical       0.0531 0.1327
+ fhs_garch       0.0520 0.1259
+ student_t       0.0551 0.1021
+
+==================== RESULTS WRITTEN ====================
+  results/comparison_all.csv : 80 rows
+  results/dm_all.csv         : 160 rows
+  results/group_summary.csv  : 20 rows
+
+--- conditional-coverage pass rate by group/method ---
+    group  alpha      model  cc_pass_rate
+developed   0.01  fhs_garch          0.00
+developed   0.01   gaussian          0.00
+developed   0.01 historical          0.00
+developed   0.01 hmm_regime          0.00
+developed   0.01  student_t          0.00
+ emerging   0.01  fhs_garch          1.00
+ emerging   0.01 hmm_regime          0.50
+ emerging   0.01  student_t          0.25
+ emerging   0.01   gaussian          0.00
+ emerging   0.01 historical          0.00
+developed   0.05  fhs_garch          1.00
+developed   0.05   gaussian          0.00
+developed   0.05 historical          0.00
+developed   0.05 hmm_regime          0.00
+developed   0.05  student_t          0.00
+ emerging   0.05  fhs_garch          1.00
+ emerging   0.05   gaussian          0.25
+ emerging   0.05 historical          0.25
+ emerging   0.05  student_t          0.25
+ emerging   0.05 hmm_regime          0.00

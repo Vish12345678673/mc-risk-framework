@@ -1,0 +1,24 @@
+
+1 Failed download:
+['^GSPC']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^GDAXI']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^FTSE']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^N225']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^NSEI']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^BSESN']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^BVSP']: OperationalError('unable to open database file')
+
+1 Failed download:
+['^J200.JO']: OperationalError('unable to open database file')

@@ -1,0 +1,95 @@
+{
+  "snapshot": "2026-06-16",
+  "fetched_utc": "2026-06-16T14:15:46+00:00",
+  "code_commit": "unknown",
+  "markets": {
+    "SP500": {
+      "file": "SP500.csv",
+      "symbol": "^GSPC",
+      "group": "developed",
+      "rows": 5030,
+      "start": "2006-06-16",
+      "end": "2026-06-16",
+      "sha256": "01dfe5c302fd79a49a06d87dbff103f5a411e4db0f1a1509c51f952b1125468c"
+    },
+    "DAX": {
+      "file": "DAX.csv",
+      "symbol": "^GDAXI",
+      "group": "developed",
+      "rows": 5072,
+      "start": "2006-06-16",
+      "end": "2026-06-16",
+      "sha256": "ee13f4b0bc52799a74e51ffbf2726fa44cef197bad72bbbcda892696995bbc5b"
+    },
+    "FTSE100": {
+      "file": "FTSE100.csv",
+      "symbol": "^FTSE",
+      "group": "developed",
+      "rows": 5050,
+      "start": "2006-06-16",
+      "end": "2026-06-16",
+      "sha256": "893c64b5a6f576b6475cba6d9a857660b994249015fbfeb18d133b9c2ed9a12f"
+    },
+    "Nikkei": {
+      "file": "Nikkei.csv",
+      "symbol": "^N225",
+      "group": "developed",
+      "rows": 4889,
+      "start": "2006-06-16",
+      "end": "2026-06-16",
+      "sha256": "0134e50884ae73cb367e6b04f34e07f900e7c551d6c0fa9c2f21bf64badae562"
+    },
+    "Nifty50": {
+      "file": "Nifty50.csv",
+      "symbol": "^NSEI",
+      "group": "emerging",
+      "rows": 4596,
+      "start": "2007-09-17",
+      "end": "2026-06-16",
+      "sha256": "1ed249dc9e0bf066660f1ca1889f243285500d8dbf4b34aadf3965c4f139e94d"
+    },
+    "Sensex": {
+      "file": "Sensex.csv",
+      "symbol": "^BSESN",
+      "group": "emerging",
+      "rows": 4912,
+      "start": "2006-06-16",
+      "end": "2026-06-16",
+      "sha256": "784f2ad3ef7043854cc1d0a54dd106e7d18e1f75b37e1986af7ddadd55ecb00f"
+    },
+    "Bovespa": {
+      "file": "Bovespa.csv",
+      "symbol": "^BVSP",
+      "group": "emerging",
+      "rows": 4950,
+      "start": "2006-06-16",
+      "end": "2026-06-16",
+      "sha256": "0a1d1776cdd541e746a427cc51598c1b83f7743151cb1e3f8ee044993cd014ca"
+    },
+    "JSE40": {
+      "file": "JSE40.csv",
+      "symbol": "^J200.JO",
+      "group": "emerging",
+      "rows": 4980,
+      "start": "2006-06-15",
+      "end": "2026-06-12",
+      "sha256": "48d487509992743887e9f2b5990def2486d5ca4909280a305fcba6bed6bc74d7"
+    }
+  },
+  "yfinance_version": "1.4.1",
+  "requested": {
+    "start": null,
+    "end": null,
+    "period": "20y",
+    "markets": {
+      "SP500": "^GSPC",
+      "DAX": "^GDAXI",
+      "FTSE100": "^FTSE",
+      "Nikkei": "^N225",
+      "Nifty50": "^NSEI",
+      "Sensex": "^BSESN",
+      "Bovespa": "^BVSP",
+      "JSE40": "^J200.JO"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "run_utc": "2026-06-16T17:43:55+00:00",
+  "code_commit": "unknown",
+  "args": {
+    "window": 500,
+    "step": 1,
+    "garch": true,
+    "no_hmm": false,
+    "alphas": [
+      0.05,
+      0.01
+    ]
+  },
+  "markets_used": [
+    "SP500",
+    "DAX",
+    "FTSE100",
+    "Nikkei",
+    "Nifty50",
+    "Sensex",
+    "Bovespa",
+    "JSE40"
+  ],
+  "snapshot": "2026-06-16",
+  "manifest_sha256": "fe53de977e803741d92ee3d172ae72d009a7c9f54ea60f206c27abd6fd0a3522",
+  "dataset_fetched_utc": "2026-06-16T14:15:46+00:00",
+  "dataset_hashes": {
+    "SP500": "01dfe5c302fd79a49a06d87dbff103f5a411e4db0f1a1509c51f952b1125468c",
+    "DAX": "ee13f4b0bc52799a74e51ffbf2726fa44cef197bad72bbbcda892696995bbc5b",
+    "FTSE100": "893c64b5a6f576b6475cba6d9a857660b994249015fbfeb18d133b9c2ed9a12f",
+    "Nikkei": "0134e50884ae73cb367e6b04f34e07f900e7c551d6c0fa9c2f21bf64badae562",
+    "Nifty50": "1ed249dc9e0bf066660f1ca1889f243285500d8dbf4b34aadf3965c4f139e94d",
+    "Sensex": "784f2ad3ef7043854cc1d0a54dd106e7d18e1f75b37e1986af7ddadd55ecb00f",
+    "Bovespa": "0a1d1776cdd541e746a427cc51598c1b83f7743151cb1e3f8ee044993cd014ca",
+    "JSE40": "48d487509992743887e9f2b5990def2486d5ca4909280a305fcba6bed6bc74d7"
+  },
+  "snapshot_integrity": true
+}

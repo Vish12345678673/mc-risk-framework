@@ -1,0 +1,26 @@
+
+[SP500] ^GSPC (developed) ...
+  !! skipped (No data for ^GSPC on ['RAW']: None)
+
+[DAX] ^GDAXI (developed) ...
+  !! skipped (No data for ^GDAXI on ['RAW']: None)
+
+[FTSE100] ^FTSE (developed) ...
+  !! skipped (No data for ^FTSE on ['RAW']: None)
+
+[Nikkei] ^N225 (developed) ...
+  !! skipped (No data for ^N225 on ['RAW']: None)
+
+[Nifty50] ^NSEI (emerging) ...
+  !! skipped (No data for ^NSEI on ['RAW']: None)
+
+[Sensex] ^BSESN (emerging) ...
+  !! skipped (No data for ^BSESN on ['RAW']: None)
+
+[Bovespa] ^BVSP (emerging) ...
+  !! skipped (No data for ^BVSP on ['RAW']: None)
+
+[JSE40] ^J200.JO (emerging) ...
+  !! skipped (No data for ^J200.JO on ['RAW']: None)
+
+No markets produced data.
